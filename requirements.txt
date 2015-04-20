@@ -1,0 +1,8 @@
+django==1.7
+markdown
+djangorestframework
+django-filter
+pygments
+
+django-celery
+
