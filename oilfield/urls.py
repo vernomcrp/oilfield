@@ -18,7 +18,7 @@ class UserViewSet(viewsets.ModelViewSet):
 # Routers provide an easy way of automatically determining the URL conf.
 routers = routers.DefaultRouter()
 # routers.register(r'users', UserViewSet)
-routers.register(r'mrecord', views.MoneyFlowViewSet)
+routers.register(r'mrecords', views.MoneyFlowViewSet)
 
 urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
