@@ -3,6 +3,6 @@ markdown
 djangorestframework
 django-filter
 pygments
-
-django-celery
+django-cors-headers
+#django-celery
 
